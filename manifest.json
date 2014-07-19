@@ -1,20 +1,20 @@
 {
+	"manifest_version" : 2,
+	"name" : "Slim Scrollbar",
+	"version" : "2.0.0",
+
+	"description" : "Modern & slim looks for browser scroll bars!",
+	"icons" : {
+		"128" : "img/icon.png"
+	},
+	
 	"content_scripts" : [{
 			"matches" : ["<all_urls>"],
 			"css" : ["css/ext.css"],
 			"all_frames": true
 		}
 	],
-	"description" : "Modern & slim looks for browser scroll bars!",
-	"icons" : {
-		"128" : "img/icon.png"
-	},
-	"name" : "Slim Scroll bar",
-	"version" : "1.6.1",
-	"manifest_version" : 2,
+
 	"permissions" : ["<all_urls>"],
-	"developer" : {
-		"name" : "mubaidr",
-		"url" : "http://my.opera.com/mubaidr/blog/"		
-	}
+	"author" : "mubaidr <http://my.opera.com/mubaidr/blog/>"
 }
